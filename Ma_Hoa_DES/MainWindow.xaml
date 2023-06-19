@@ -1,0 +1,35 @@
+﻿<Window x:Class="Ma_Hoa_DES.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ma_Hoa_DES"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1200">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="517" Margin="40,28,0,0" Stroke="Black" VerticalAlignment="Top" Width="560"/>
+        <Rectangle HorizontalAlignment="Left" Height="517" Margin="628,28,0,0" Stroke="Black" VerticalAlignment="Top" Width="534"/>
+        <Label Content="Mã hóa " Margin="250,54,0,0" VerticalAlignment="Top" Height="57" Width="140" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left"/>
+        <TextBox x:Name="banrotxt" HorizontalAlignment="Left" Margin="185,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" Height="98" FontSize="16" Text="Nhập bản rõ vào đây "/>
+        <Label Content="Bản rõ: " HorizontalAlignment="Left" Margin="95,116,0,0" VerticalAlignment="Top" Height="98" Width="90" FontSize="20"/>
+        <TextBox x:Name="banmatxt" HorizontalAlignment="Left" Margin="185,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" Height="105" FontSize="16"/>
+        <Label Content="Bản mã:" HorizontalAlignment="Left" Margin="95,369,0,0" VerticalAlignment="Top" Height="105" Width="90" FontSize="20"/>
+        <Button x:Name="mahoabtn" Content="Mã hóa" HorizontalAlignment="Left" Margin="258,295,0,0" VerticalAlignment="Top" Height="41" Width="124" FontSize="20" Click="mahoabtn_Click"/>
+        <Button x:Name="fileselectbtn" Content="File" HorizontalAlignment="Left" Margin="504,151,0,0" VerticalAlignment="Top" Height="63" Width="62" FontSize="20" Click="fileselectbtn_Click"/>
+        <Button Content="Chuyển" HorizontalAlignment="Left" Margin="492,347,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="Button_Click"/>
+        <Button x:Name="luubanmabtn" Content="Lưu" HorizontalAlignment="Left" Margin="492,410,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="luubanmabtn_Click"/>
+        <TextBox x:Name="khoatxt" HorizontalAlignment="Left" Margin="185,239,0,0" TextWrapping="Wrap" Text="0123456789ABCDEF" VerticalAlignment="Top" Width="289" Height="27" FontSize="16"/>
+        <Label Content="Khóa:" HorizontalAlignment="Left" Margin="95,226,0,0" VerticalAlignment="Top" Height="98" Width="90" FontSize="20"/>
+        <Label Content="Giải mã " Margin="830,54,0,0" VerticalAlignment="Top" Height="57" Width="140" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left"/>
+        <TextBox x:Name="banmatxt1" HorizontalAlignment="Left" Margin="765,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" Height="98" FontSize="16"/>
+        <Label Content="Bản mã: " HorizontalAlignment="Left" Margin="675,116,0,0" VerticalAlignment="Top" Height="98" Width="90" FontSize="20"/>
+        <TextBox x:Name="banrotxt1" HorizontalAlignment="Left" Margin="765,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" Height="105" FontSize="16"/>
+        <Label Content="Bản rõ:" HorizontalAlignment="Left" Margin="675,369,0,0" VerticalAlignment="Top" Height="105" Width="90" FontSize="20"/>
+        <Button x:Name="giaimabtn" Content="Giải mã" HorizontalAlignment="Left" Margin="838,295,0,0" VerticalAlignment="Top" Height="41" Width="124" FontSize="20" Click="giaimabtn_Click"/>
+        <Button x:Name="filegiaimaselectbtn" Content="File" HorizontalAlignment="Left" Margin="1084,151,0,0" VerticalAlignment="Top" Height="63" Width="62" FontSize="20" Click="filegiaimaselectbtn_Click"/>
+        <Button x:Name="luubanrobtn" Content="Lưu" HorizontalAlignment="Left" Margin="1072,410,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="luubanrobtn_Click"/>
+        <TextBox x:Name="khoatxt1" HorizontalAlignment="Left" Margin="765,239,0,0" TextWrapping="Wrap" Text="0123456789ABCDEF" VerticalAlignment="Top" Width="289" Height="27" FontSize="16"/>
+        <Label Content="Khóa:" HorizontalAlignment="Left" Margin="675,226,0,0" VerticalAlignment="Top" Height="98" Width="90" FontSize="20"/>
+
+    </Grid>
+</Window>
