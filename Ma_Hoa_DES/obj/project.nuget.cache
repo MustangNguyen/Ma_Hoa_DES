@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cRIq3wt8zlt9AS5557POW2UqGsLNrIxr5O2vdRic4pFbFUwhXGQU3QU4dNTIP4TctmsaN1u0KQuCLsYLfrmI+w==",
+  "dgSpecHash": "DMvIlYSKDmmUicDBcJhTgAJFm71j6tcZP/9ej9AeIylxaAdJ+KPMtwp6AsqzBKf7gvK718ehzdz6OQnYI/P+3w==",
   "success": true,
-  "projectFilePath": "C:\\Mien cuong\\An toan thong tin\\MaHoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES.csproj",
+  "projectFilePath": "C:\\Mien cuong\\An toan thong tin\\Ma_Hoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iq123\\.nuget\\packages\\docx\\2.4.0\\docx.2.4.0.nupkg.sha512",
     "C:\\Users\\iq123\\.nuget\\packages\\gembox.document\\35.0.1403\\gembox.document.35.0.1403.nupkg.sha512",

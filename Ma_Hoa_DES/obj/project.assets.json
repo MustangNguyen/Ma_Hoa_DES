@@ -1094,11 +1094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mien cuong\\An toan thong tin\\MaHoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES.csproj",
+      "projectUniqueName": "C:\\Mien cuong\\An toan thong tin\\Ma_Hoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES.csproj",
       "projectName": "Ma_Hoa_DES",
-      "projectPath": "C:\\Mien cuong\\An toan thong tin\\MaHoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES.csproj",
+      "projectPath": "C:\\Mien cuong\\An toan thong tin\\Ma_Hoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES.csproj",
       "packagesPath": "C:\\Users\\iq123\\.nuget\\packages\\",
-      "outputPath": "C:\\Mien cuong\\An toan thong tin\\MaHoa_DES\\Ma_Hoa_DES\\Ma_Hoa_DES\\obj\\",
+      "outputPath": "C:\\Mien cuong\\An toan thong tin\\Ma_Hoa_DES\\Ma_Hoa_DES\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
