@@ -1,9 +1,11 @@
-Trong thế giới wibu, những con người đam mê anime và manga, không chỉ là một sở thích mà còn là một phần cuộc sống. Các nhân vật trong các bộ truyện tranh và phim hoạt hình Nhật Bản đã trở thành nguồn cảm hứng và hình mẫu cho rất nhiều wibu trên khắp thế giới.
+Đề toán: Cộng các số
 
-Mỗi ngày, wibu tụ họp trong các nhóm, diễn đàn và sự kiện để thảo luận, trao đổi và chia sẻ với nhau về những bộ anime và manga yêu thích. Họ không chỉ xem, đọc và tận hưởng nội dung, mà còn đắm chìm vào các thế giới ảo, nơi mà những câu chuyện tưởng chừng chỉ tồn tại trong trí tưởng tượng trở nên sống động.
+Hãy tính tổng của hai số sau đây:
 
-Wibu không chỉ đơn thuần là những người yêu thích anime, manga, mà còn là những người biết tận hưởng và trân trọng nghệ thuật. Họ tìm kiếm những bộ truyện tranh và phim hoạt hình có cốt truyện sâu sắc, nhân vật phong phú và hình ảnh tuyệt đẹp. Họ cảm nhận được những thông điệp về tình yêu, tình bạn, sự đấu tranh và sự khám phá trong từng tác phẩm.
+Số thứ nhất: 5
+Số thứ hai: 3
 
-Wibu cũng thể hiện sự tình nguyện và sáng tạo thông qua việc cosplay, vẽ tranh, viết truyện và thậm chí là sáng tác nhạc chủ đề cho các bộ anime và manga. Họ tỏ ra đam mê và tận hưởng việc truyền cảm hứng cho nhau, tạo ra một cộng đồng sôi nổi và đa dạng.
+Ghi lại phép tính và kết quả của bạn dưới đây:
 
-Cho dù nhiều người có thể cho rằng wibu chỉ là một sở thích kỳ lạ và không thực tế, nhưng thực tế là đam mê này đã tạo ra một nguồn năng lượng và sự kết nối mạnh mẽ giữa các cá nhân. Và đối với wibu, đó chính là điều quan trọng nhất, bởi vì trong thế giới wibu, chúng ta có thể tìm thấy niềm vui và sự thỏa mãn từ những gì chúng ta yêu thích nhất.
+Phép tính: 5 + 3 =
+Kết quả: _______

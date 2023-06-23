@@ -20,8 +20,8 @@
         <Button x:Name="mahoabtn" Content="Mã hóa" HorizontalAlignment="Left" Margin="255,207,0,0" VerticalAlignment="Top" Height="41" Width="124" FontSize="20" Click="mahoabtn_Click"/>
         <Button x:Name="fileselectbtn" Content="File" HorizontalAlignment="Left" Margin="479,104,0,0" VerticalAlignment="Top" Height="62" Width="62" FontSize="20" Click="fileselectbtn_Click"/>
         <Button Content="Chuyển" HorizontalAlignment="Left" Margin="477,236,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="Button_Click"/>
-        <Button x:Name="luubanmabtn" Content="Lưu" HorizontalAlignment="Left" Margin="477,299,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="luubanmabtn_Click"/>
-        <TextBox x:Name="khoatxt" HorizontalAlignment="Left" Margin="175,172,0,0" TextWrapping="Wrap" Text="0123456789ABCDEF" VerticalAlignment="Top" Width="289" Height="26" FontSize="16"/>
+        <Button x:Name="luubanmabtn" Content="Lưu txt" HorizontalAlignment="Left" Margin="477,285,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="luubanmabtn_Click"/>
+        <TextBox x:Name="khoatxt" HorizontalAlignment="Left" Margin="175,172,0,0" TextWrapping="Wrap" Text="1234567890ABCDEF" VerticalAlignment="Top" Width="289" Height="26" FontSize="16"/>
         <Label Content="Khóa:" HorizontalAlignment="Left" Margin="85,158,0,0" VerticalAlignment="Top" Height="98" Width="90" FontSize="20"/>
         <Label Content="Giải mã " Margin="815,6,0,0" VerticalAlignment="Top" Height="57" Width="140" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left"/>
         <TextBox x:Name="banmatxt1" HorizontalAlignment="Left" Margin="740,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" Height="98" FontSize="16"/>
@@ -30,14 +30,14 @@
         <Label Content="Bản rõ:" HorizontalAlignment="Left" Margin="660,258,0,0" VerticalAlignment="Top" Height="105" Width="90" FontSize="20"/>
         <Button x:Name="giaimabtn" Content="Giải mã" HorizontalAlignment="Left" Margin="821,207,0,0" VerticalAlignment="Top" Height="41" Width="124" FontSize="20" Click="giaimabtn_Click"/>
         <Button x:Name="filegiaimaselectbtn" Content="File" HorizontalAlignment="Left" Margin="1058,104,0,0" VerticalAlignment="Top" Height="62" Width="62" FontSize="20" Click="filegiaimaselectbtn_Click"/>
-        <Button x:Name="luubanrobtn" Content="Lưu" HorizontalAlignment="Left" Margin="1056,299,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="luubanrobtn_Click"/>
-        <TextBox x:Name="khoatxt1" HorizontalAlignment="Left" Margin="740,172,0,0" TextWrapping="Wrap" Text="0123456789ABCDEF" VerticalAlignment="Top" Width="289" Height="26" FontSize="16"/>
+        <Button x:Name="luubanrobtn" Content="Lưu txt" HorizontalAlignment="Left" Margin="1058,285,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="luubanrobtn_Click"/>
+        <TextBox x:Name="khoatxt1" HorizontalAlignment="Left" Margin="740,172,0,0" TextWrapping="Wrap" Text="1234567890ABCDEF" VerticalAlignment="Top" Width="289" Height="26" FontSize="16"/>
         <Label Content="Khóa:" HorizontalAlignment="Left" Margin="650,158,0,0" VerticalAlignment="Top" Height="98" Width="90" FontSize="20"/>
         <Rectangle HorizontalAlignment="Left" Height="378" Margin="42,414,0,0" Stroke="Black" VerticalAlignment="Top" Width="558"/>
         <Rectangle HorizontalAlignment="Left" Height="378" Margin="616,414,0,0" Stroke="Black" VerticalAlignment="Top" Width="534"/>
         <Label Content="Chia sẻ khóa" Margin="208,414,0,0" VerticalAlignment="Top" Height="56" Width="224" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left"/>
         <Label Content="Ghép khóa" Margin="798,414,0,0" VerticalAlignment="Top" Height="56" Width="194" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left"/>
-        <TextBox x:Name="txtKChia" HorizontalAlignment="Left" Margin="172,489,0,0" TextWrapping="Wrap" Text="12379813738877118345" VerticalAlignment="Top" Width="290" Height="26" FontSize="16"/>
+        <TextBox x:Name="txtKChia" HorizontalAlignment="Left" Margin="172,489,0,0" TextWrapping="Wrap" Text="1234567890ABCDEF" VerticalAlignment="Top" Width="290" Height="26" FontSize="16"/>
         <TextBox x:Name="txtPChia" HorizontalAlignment="Left" Margin="172,520,0,0" TextWrapping="Wrap" Text="12764787846358441471" VerticalAlignment="Top" Width="290" Height="26" FontSize="16"/>
         <TextBox x:Name="txtGTV1" HorizontalAlignment="Left" Margin="118,567,0,0" TextWrapping="Wrap" Text="151595058245452" VerticalAlignment="Top" Width="202" Height="26" FontSize="16"/>
         <TextBox x:Name="txtGTV2" HorizontalAlignment="Left" Margin="118,598,0,0" TextWrapping="Wrap" Text="111350135012507" VerticalAlignment="Top" Width="202" Height="26" FontSize="16"/>
@@ -47,8 +47,8 @@
         <TextBox x:Name="txtPGhep" HorizontalAlignment="Left" Margin="739,489,0,0" TextWrapping="Wrap" Text="12764787846358441471" VerticalAlignment="Top" Width="290" Height="26" FontSize="16"/>
         <TextBox x:Name="txtV1" HorizontalAlignment="Left" Margin="692,567,0,0" TextWrapping="Wrap" Text="151595058245452" VerticalAlignment="Top" Width="202" Height="26" FontSize="16"/>
         <TextBox x:Name="txtV2" HorizontalAlignment="Left" Margin="692,598,0,0" TextWrapping="Wrap" Text="111350135012507" VerticalAlignment="Top" Width="202" Height="26" FontSize="16" RenderTransformOrigin="0.488,0.578"/>
-        <TextBox x:Name="txtFv1" HorizontalAlignment="Left" Margin="899,567,0,0" TextWrapping="Wrap" Text="11576322953334095184" VerticalAlignment="Top" Width="202" Height="26" FontSize="16"/>
-        <TextBox x:Name="txtFv2" HorizontalAlignment="Left" Margin="899,598,0,0" TextWrapping="Wrap" Text="1331512647268863473" VerticalAlignment="Top" Width="202" Height="26" FontSize="16" RenderTransformOrigin="0.488,0.578"/>
+        <TextBox x:Name="txtFv1" HorizontalAlignment="Left" Margin="899,567,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Height="26" FontSize="16"/>
+        <TextBox x:Name="txtFv2" HorizontalAlignment="Left" Margin="899,598,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Height="26" FontSize="16" RenderTransformOrigin="0.488,0.578"/>
         <Button x:Name="btnGhepKhoa" Content="Khôi phục khóa" HorizontalAlignment="Left" Margin="810,629,0,0" VerticalAlignment="Top" Height="41" Width="150" FontSize="20" Click="btnGhepKhoa_Click_1"/>
         <TextBox x:Name="txtKhoaKP" HorizontalAlignment="Left" Margin="739,699,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" Height="26" FontSize="16"/>
         <Label Content="Khóa" HorizontalAlignment="Left" Margin="117,484,0,0" VerticalAlignment="Top" FontSize="16"/>
@@ -60,6 +60,10 @@
         <Label Content="(v1, f(v1))" HorizontalAlignment="Left" Margin="619,564,0,0" VerticalAlignment="Top" FontSize="16" Width="86" RenderTransformOrigin="0.5,0.193"/>
         <Label Content="(v2, f(v2))" HorizontalAlignment="Left" Margin="619,593,0,0" VerticalAlignment="Top" FontSize="16" Width="86"/>
         <Label Content="Khóa" HorizontalAlignment="Left" Margin="688,696,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="luubanmadocbtn" Content="Lưu doc" HorizontalAlignment="Left" Margin="478,334,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="luubanmadocbtn_Click"/>
+        <Button x:Name="luubanrodocbtn" Content="Lưu doc" HorizontalAlignment="Left" Margin="1058,334,0,0" VerticalAlignment="Top" Height="44" Width="86" FontSize="20" Click="luubanrodocbtn_Click"/>
+        <TextBox x:Name="txtKhoaKPHexa" HorizontalAlignment="Left" Margin="740,730,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" Height="26" FontSize="16"/>
+        <Label Content="HEX" HorizontalAlignment="Left" Margin="688,725,0,0" VerticalAlignment="Top" FontSize="16"/>
 
     </Grid>
 </Window>

@@ -1,1 +1,11 @@
-Nhập bản rõ vào đây 
+Đề toán: Cộng các số
+
+Hãy tính tổng của hai số sau đây:
+
+Số thứ nhất: 5
+Số thứ hai: 3
+
+Ghi lại phép tính và kết quả của bạn dưới đây:
+
+Phép tính: 5 + 3 =
+Kết quả: _______

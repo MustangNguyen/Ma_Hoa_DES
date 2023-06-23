@@ -123,8 +123,7 @@ namespace Ma_Hoa_DES
         private void luubanrobtn_Click(object sender, RoutedEventArgs e)
         {
             linkbanro.Replace(".", "_GIAIMA.");
-            //File.WriteAllText(linkbanro, banrotxt1.Text);
-            DocFileDoc.WriteStringToFile(linkbanro, banrotxt1.Text);
+            File.WriteAllText(linkbanro, banrotxt1.Text);          
         }
         private void btnChiaKhoa_Click(object sender, EventArgs e)
         {
@@ -315,7 +314,7 @@ namespace Ma_Hoa_DES
             if (check)
             {
                 string kq = "Các cặp khóa: \n";
-                BigInteger Key = BigInteger.Parse(txtKChia.Text);
+                BigInteger Key = Convert.ToInt64(txtKChia.Text,16);
                 BigInteger P = BigInteger.Parse(txtPChia.Text);
 
                 int m = 2, t = 2;
@@ -370,7 +369,7 @@ namespace Ma_Hoa_DES
                             BigInteger.Parse(txtFv2.Text)};
                 BigInteger k = 0;
 
-                //txtKhoaKPHexa.Text = f[2].ToString();
+                txtKhoaKPHexa.Text = f[2].ToString();
                 int t = 2;
                 for (int i = 1; i <= t; i++)
                 {
@@ -385,12 +384,24 @@ namespace Ma_Hoa_DES
                             m = (m * n) % p;
                         }
                     }
-                    //txtKhoaKPHexa.Text = m.ToString();
+                    txtKhoaKPHexa.Text = m.ToString();
                     k = (k % p + (f[i] % p * m % p) % p) % p;
                 }
                 txtKhoaKP.Text = k.ToString();
-                //txtKhoaKPHexa.Text = k.ToString("X");
+                txtKhoaKPHexa.Text = k.ToString("X");
             }
+        }
+
+        private void luubanmadocbtn_Click(object sender, RoutedEventArgs e)
+        {
+            
+            DocFileDoc.WriteStringToFile(linkbanma,banmatxt.Text);
+        }
+
+        private void luubanrodocbtn_Click(object sender, RoutedEventArgs e)
+        {
+            DocFileDoc.WriteStringToFile(linkbanro, banrotxt1.Text);
+
         }
     }
 }
